@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Golden Festival</title>
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #0b0b0f;
+color: white;
+}
+
+header {
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background: radial-gradient(circle at top, #b8860b, #0b0b0f 60%);
+}
+
+h1 {
+font-size: 60px;
+margin: 0;
+color: gold;
+}
+
+p {
+font-size: 20px;
+opacity: 0.8;
+}
+
+button {
+padding: 15px 25px;
+margin-top: 20px;
+border: none;
+background: gold;
+color: black;
+font-weight: bold;
+cursor: pointer;
+border-radius: 10px;
+}
+
+section {
+padding: 60px 20px;
+max-width: 900px;
+margin: auto;
+}
+
+h2 {
+color: gold;
+}
+
+.card {
+background: #16161d;
+padding: 20px;
+margin: 10px 0;
+border-radius: 10px;
+}
+
+footer {
+text-align: center;
+padding: 30px;
+opacity: 0.6;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Golden Festival</h1>
+<p>18.07.2026 • Lugano, Svizzera</p>
+<p>3’500 persone • Festival musicale estivo</p>
+<button onclick="window.location.href='#tickets'">Acquista Biglietti</button>
+</header>
+
+<section>
+<h2>Line-up</h2>
+<div class="card">🔥 David Guetta (Headliner)</div>
+<div class="card">Make Plain</div>
+<div class="card">Dreamshade</div>
+<div class="card">CoreLeoni</div>
+<div class="card">The Vad Vuc</div>
+</section>
+
+<section id="tickets">
+<h2>Biglietti</h2>
+<div class="card">Standard – CHF 310 <br><button>Compra ora</button></div>
+<div class="card">VIP 1 – Comfort <br><button>Compra VIP</button></div>
+<div class="card">VIP 2 – Front Stage <br><button>Compra VIP Premium</button></div>
+</section>
+
+<section>
+<h2>Info Evento</h2>
+<div class="card">
+Festival musicale estivo a Lugano con artisti internazionali e locali.
+Valorizzazione della scena musicale ticinese.
+</div>
+</section>
+
+<section>
+<h2>Location</h2>
+<div class="card">
+Lugano, Svizzera<br>
+Area evento da confermare
+</div>
+</section>
+
+<footer>
+Golden Festival 2026 • Lugano
+</footer>
+
+</body>
+</html>
